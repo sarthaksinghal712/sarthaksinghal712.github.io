@@ -1,2 +1,3 @@
 # sarthaksinghal712.github.io
-Still under development
+Switched to netlify
+# https://sarthaksinghal.me - Still under development!

@@ -1,4 +1,5 @@
 $('.scroll').click(function(event) {
+    $("#content1").slideDown("fast")
     event.preventDefault();
     var targetOffset = $('#content1').offset().top;
     $("html, body").animate({

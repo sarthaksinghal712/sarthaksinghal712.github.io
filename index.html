@@ -2,38 +2,325 @@
 <html lang="en">
 
 <head>
-    <title>Sarthak Singhal</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Sarthak Singhal</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+                crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+
+
+
 </head>
 
 <body>
-    <div class="w-50 p-lg-5 p-sm-1 m-0 container-fluid" id="imgsection">
-        <img src="me1.jpg" alt="Sarthak Singhal" class="rounded-circle img img-fluid w-50">
-    </div>
-    <div class="w-50 p-5 m-0 container-fluid" id="imgsection1">
-        <p style="line-height: 2em; font-size: 1em;" class="text-center">
-            <b style="font-family: 'Courier New', Courier, monospace;">Hi! I am Sarthak Singhal</b>
-            <br>The Hong Kong University of Science & Technology | CSE<br>
-            <a href="mailto:ssinghalab@connect.ust.hk"><i class="fa fa-envelope pt-3 px-2" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/in/sarthaksinghal712/"><i class="fa fa-linkedin-square pt-3 px-2" aria-hidden="true"></i></a>
-            <a href="https://ustdaily.wordpress.com/"><i class="fa fa-wordpress pt-3 px-2" aria-hidden="true"></i></a>
-            <a href="https://github.com/sarthaksinghal712/"><i class="fa fa-github pt-3 px-2" aria-hidden="true"></i></a>
-            <a href="https://instagram.com/sarthaksinghal_"><i class="fa fa-instagram pt-3 px-2" aria-hidden="true"></i></a>
-        </p>
+        <!-- Mobile Intro -->
+        <section id="mobile-intro" class="d-flex d-md-none mobile-view">
+                <div class="row text-center m-0">
+                        <div class="col-12">
+                                <img src="me1.jpg" alt="Sarthak Singhal" class="rounded-circle img img-fluid w-50">
+                                <br><br>
+                                <p style="line-height: 2em; font-size: 1em;" class="text-center">
+                                        <b style="font-family: 'Courier New', Courier, monospace;">Hi! I am
+                                                Sarthak Singhal</b>
+                                        <br>The Hong Kong University of Science & Technology | CSE<br>
+                                        <a href="mailto:ssinghalab@connect.ust.hk"><i class="fa fa-envelope pt-3 px-2"
+                                                        aria-hidden="true"></i></a>
+                                        <a href="https://www.linkedin.com/in/sarthaksinghal712/"><i
+                                                        class="fa fa-linkedin-square pt-3 px-2"
+                                                        aria-hidden="true"></i></a>
+                                        <a href="https://medium.com/@sarthaksinghal712/"><i
+                                                        class="fa fa-medium pt-3 px-2" aria-hidden="true"></i></a>
+                                        <a href="https://github.com/sarthaksinghal712/"><i
+                                                        class="fa fa-github pt-3 px-2" aria-hidden="true"></i></a>
+                                        <a href="https://instagram.com/sarthaksinghal_"><i
+                                                        class="fa fa-instagram pt-3 px-2"
+                                                        aria-hidden="true"></i></a><br>
+                                        <button class="btn btn-sm btn-dark my-3 scroll"><i class="fa fa-lightbulb-o"
+                                                        aria-hidden="true"></i>&nbsp;&nbsp;COMP 4461 Personal
+                                                Diary</button>
+                                </p>
+                        </div>
+                </div>
+        </section>
+        <!-- Desktop Intro -->
+        <section class="d-md-flex d-none" id="topcontent">
+                <div class="w-50 p-lg-5 p-sm-1 m-0 container-fluid" id="imgsection">
+                        <img src="me1.jpg" alt="Sarthak Singhal" class="rounded-circle img img-fluid w-50">
+                </div>
+                <div class="w-50 p-5 m-0 container-fluid" id="imgsection1">
+                        <p style="line-height: 2em; font-size: 1em;" class="text-center">
+                                <b style="font-family: 'Courier New', Courier, monospace;">Hi! I am Sarthak
+                                        Singhal</b>
+                                <br>The Hong Kong University of Science & Technology | CSE<br>
+                                <a href="mailto:ssinghalab@connect.ust.hk"><i class="fa fa-envelope pt-3 px-2"
+                                                aria-hidden="true"></i></a>
+                                <a href="https://www.linkedin.com/in/sarthaksinghal712/"><i
+                                                class="fa fa-linkedin-square pt-3 px-2" aria-hidden="true"></i></a>
+                                <a href="https://medium.com/@sarthaksinghal712/"><i class="fa fa-medium pt-3 px-2"
+                                                aria-hidden="true"></i></a>
+                                <a href="https://github.com/sarthaksinghal712/"><i class="fa fa-github pt-3 px-2"
+                                                aria-hidden="true"></i></a>
+                                <a href="https://instagram.com/sarthaksinghal_"><i class="fa fa-instagram pt-3 px-2"
+                                                aria-hidden="true"></i></a><br>
+                                <button class="btn btn-sm btn-dark my-3 scroll">
+                                        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>&nbsp;&nbsp;COMP
+                                        4461 Personal Diary</button>
+                        </p>
 
-    </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+                </div>
+        </section>
+        <!-- COMP 4461 Content -->
+        <section id="content1" class="container-fluid w-100 py-4" style="height: 100vh; background-color: #f6f7f9">
+                <div class="row w-100 m-0">
+                        <div class="col-12 col-md-4 my-2 m-md-0">
+                                <div class="card m-0 bg-light" id="card-intro">
+                                        <img src="./card-preview-1.png" alt="" class="w-100 card-img-top">
+                                        <div class="card-body">
+                                                <hr>
+                                                <h5 class="card-title">HKUST Canteen Experience</h5>
+                                                <hr>
+                                                <p class="card-text text-justify">
+                                                        HKUST canteen servers hundreds of students daily with
+                                                        low price, tummy filling meals which are relished by the
+                                                        users. However, there remains lots of problems that make
+                                                        the experience non-user-friendly. Click to go through my
+                                                        journey working on making this experience better than
+                                                        before.
+                                                </p>
+                                                <button class="btn w-100 btn-dark" id="knowProj1">Know More</button>
+                                        </div>
+                                        <div class="card-footer">
+                                                <div>
+                                                        <small class="text-muted">Tags: HCI - Project
+                                                                1</small><br>
+                                                        <small class="text-muted">Last updated 27th February
+                                                                2023</small>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col-12 col-md-8 my-2 m-md-0">
+                                <div class="card m-0 bg-light"
+                                        style="display: none; overflow-y: scroll; position: relative;"
+                                        id="content-card">
+                                        <div class="card-body">
+                                                <h5 class="card-title">HKUST Canteen Experience</h5>
+                                                <hr>
+                                                <p class="card-text">
+                                                        <i>7<sup>th</sup> February 2023<br></i>
+                                                        <hr>
+                                                <p class="text-justify">Ever since the semester started, I've been super
+                                                        determined to
+                                                        work my best as having strong academic performance was my new
+                                                        year's resolution. I had my first class on Human Computer
+                                                        Interaction on 6<sup>th</sup> February 2023. It was a really
+                                                        interesting lecture as I always wondered about the heuristics
+                                                        that govern my choices when it comes to electronic devices.
+                                                        Well, this class was just what I was looking for. The course
+                                                        sparked in me the basic understanding of human perspective to
+                                                        computing. I'm super excited for this course, primarily because
+                                                        it's mostly project based, which makes it look so fun!</p>
+                                                </p>
+                                                <p class="card-text">
+                                                        <hr>
+                                                        <i>8<sup>th</sup> February 2023<br></i>
+                                                        <hr>
+                                                <p class="text-justify">Today's class gave us a brief introduction to
+                                                        what we have to do
+                                                        for our first group project in the team. The project is pretty
+                                                        exciting, we have to work on a the topic, <b><i>"If ___ on
+                                                                        campus were more user-friendly"</i></b>. Well, I
+                                                        wanted to stay on top of this, so while having lunch today at
+                                                        Passion, I spoke with a few friends of mine about what potential
+                                                        problems they have faced throughout their stay at UST. I got
+                                                        really interesting feedback from my friends. Quite a lot of
+                                                        problems at UST haha! I'm not much of a gymmer, but one of my
+                                                        friends is and he was so passionate about the need to reform the
+                                                        gym system. I felt so intrigued hearing that and was totally
+                                                        convinced that this is the topic I want to work on. But again,
+                                                        like I said, I'm not a gymmer, so I didn't relate strongly with
+                                                        the topic. Another friend of mine suggested that it's so
+                                                        annoying when they feel like studying and decide to sit in the
+                                                        library, travel all the way from their halls to the LC, only to
+                                                        find out that it's at capacity and there's no more seating
+                                                        available. Well, this problem could have been easily solved by
+                                                        counting the number of Student ID taps on their entry system,
+                                                        however, there's no tap done to count their exit so this won't
+                                                        be a possible project to work on. Another one of my friends
+                                                        suggested to improve the HKUST AirCon recharging system as it's
+                                                        a three step process which is pretty annoying, however, TKO
+                                                        Hall, in which I live in, has already simplified the system by
+                                                        making use of Octopus Cards instead.</p>
+                                                </p>
+                                                <hr>
+                                                <p class="card-text">
+                                                        <i>15<sup>th</sup> February 2023<br></i>
+                                                        <hr>
+                                                <p class="text-justify">
+                                                        Today, I had an interesting interaction with one of my friends,
+                                                        he recently broke up with his girlfriend and were super sad as
+                                                        they also missed the deadline for USThing's Valentine's Match.
+                                                        He was very sad. While I consoled him, I also got the idea of
+                                                        reforming the USThing Valentine's Matchmaking by decentralizing
+                                                        the user profiles and making the match making process more
+                                                        transparent. I ended up pitching this idea to my groupmates
+                                                        which got all of us very excited as it clearly caters to the
+                                                        huge number of single people at HKUST. But since, a lot of my
+                                                        groupmates are exchange students and have no idea whatsoever
+                                                        about USThing's Valentine's Day Matchmaking, we had to drop the
+                                                        idea. We also discussed if we could work on UST's laundry
+                                                        system, as similar to the AirCon system, it's pretty outdated.
+                                                        But again, in my JCH, it's pretty convenient. So we decided to
+                                                        drop the idea.
+                                                </p>
+                                                </p>
+                                                <hr>
+                                                <p class="card-text">
+                                                        <i>22<sup>nd</sup> February 2023<br></i>
+                                                        <hr>
+                                                <p class="text-justify">
+                                                        Today, we had the in-class activity where we are supposed to
+                                                        brainstorm on ideas and create our mindmap. We had very limited
+                                                        time, so we made use of our research and interactions so far to
+                                                        make the mindmap as quickly as we could. This is what we came up
+                                                        with: - <br>
+                                                        <img src="./mindmap1.png" alt="Mindmap#1" class="w-100" /><br>
+                                                        Here we also thought that we could revamp the Student
+                                                        Information System or SIS, but we realized that it was a really
+                                                        common topic when other groups presented. We were all very
+                                                        tired, so we decided to have lunch at the LG1 canteen. But there
+                                                        was a massive crowd there as it was peak lunch hours. We
+                                                        couldn't even find a single empty table to accomodate our group.
+                                                        And that's when we zeroed down to working on <b>Enhancing HKUST
+                                                                Canteen Experience</b>. We realized that we're not the
+                                                        only ones facing the problem, there's hundreds of other students
+                                                        who're so tired of the lack of information HKUST's Canteens
+                                                        provide. So we decided to send develop our questionnaire and
+                                                        send it out to our groupchats to gather people's perspective and
+                                                        validate if our experiences match theirs. By the end of the day,
+                                                        we were able to create the following google form to survey
+                                                        people.<br><br>
+                                                        <center><iframe id="frame"
+                                                                        src="https://docs.google.com/forms/d/e/1FAIpQLScpWsdwIiTxoGQ49SqqMGAhJgL3MFogrRIuzAh1NvsSj16K9Q/viewform?embedded=true"
+                                                                        height="500" frameborder="0" marginheight="0"
+                                                                        marginwidth="0">Loading…</iframe></center>
+                                                </p>
+                                                </p>
+                                                <hr>
+                                                <p class="card-text">
+                                                        <i>24<sup>th</sup> February 2023<br></i>
+                                                        <hr>
+                                                <p class="text-justify">
+                                                        Based on the responses we collected, I was able to ideate
+                                                        another mindmap to fit this particular problem of
+                                                        non-user-friendly canteen experience. It looks like this: -<br>
+                                                        <img src="./mindmap2.png" alt="Mindmap#2" class="w-100" /><br>
+                                                        Based off the questionnaire, I was able to assess what kind of
+                                                        persona our users have, those who primarily belong to the
+                                                        student group. I came up with the following characteristics that
+                                                        define our user persona: -<br>
+                                                </p>
+                                                <ul>
+                                                        <li>Diet-conscious</li>
+                                                        <li>Rushing</li>
+                                                        <li>Allergic</li>
+                                                        <li>Workaholics</li>
+                                                        <li>In search for cheap and filling food</li>
+                                                </ul><br>
+                                                The questionnaire also allowed me to identify problems related to the
+                                                poor dining experience. These included: -<br>
+                                                <ul>
+                                                        <li>Long waiting queues</li>
+                                                        <li>Lack of seating space</li>
+                                                        <li>No online ordering facility</li>
+                                                        <li>Meals out of stock</li>
+                                                        <li>No information about potential allergens</li>
+                                                </ul><br>
+                                                <p class="text-justify">
+                                                        This also made me ponder what's the best way to implement this
+                                                        reform,
+                                                        should I create a new application, maybe create a virtual
+                                                        queuing
+                                                        system, what about work with just a single vendor, maybe just
+                                                        focus of
+                                                        availabiliy of seats system, etc. I realized that this all can
+                                                        be
+                                                        combined into a single page on HKUST Student's App which is
+                                                        already
+                                                        installed in most of our primary user's (students) devices. A
+                                                        simple
+                                                        task breakdown would invlove pitching a collaboration with HKUST
+                                                        Student's Application, collect statistics to validate our
+                                                        claims,
+                                                        collaborate with the canteen vendors, configure their POS
+                                                        systems to
+                                                        push information about stock to our API which we develop to
+                                                        standardize
+                                                        information transmission. And finally design a page in HKUST
+                                                        Student's
+                                                        App that can connect with this information. This clear approach
+                                                        of working systematically and getting to know your customers and
+                                                        their behaviour was pretty important to me as I was able to
+                                                        solve a lot of questions I was getting while I was simply
+                                                        thinking of the idea. Who better to ask for answers than the
+                                                        users themselves! We then started working on our storyboarding
+                                                        and presentation.
+                                                </p>
+                                                </p>
+                                                <hr>
+                                                <p class="card-text">
+                                                        <i>27<sup>th</sup> February 2023<br></i>
+                                                        <hr>
+                                                <p class="text-justify">
+                                                        My group has done a fantastic job in working on the
+                                                        presentations. We were able to build the story boards, thanks to
+                                                        my groupmates and were able to complete the presentation on
+                                                        time. @Lauren and @Tiffany came up with fabulous designs for the
+                                                        storyboards: -<br>
+                                                        <center>
+                                                                <img src="./storyboard1.png" alt="Storyboard#1"
+                                                                        class="w-50"><br><br>
+                                                                <img src="./storyboard2.png" alt="Storyboard#1"
+                                                                        class="w-50">
+                                                        </center>
+                                                        <br>
+                                                        Overall, it was a really fun experience where I got to
+                                                        learn a lot about human-centered design and how user experience
+                                                        needs to be enhanced and also that it's a continuous experience
+                                                        that should always be supplimented with user feedback surveys in
+                                                        order to incorporate the dynamics of changing utility with time!
+                                                </p>
+                                                </p>
+                                        </div>
+                                        <div class="card-footer" id="content-card-footer"
+                                                style="position: sticky; bottom: 0; right: 0; background-color: #eeeeee;">
+                                                <div class="text-right">
+                                                        <small class="text-muted">Made with <i class="fa fa-heart"
+                                                                        aria-hidden="true"></i> by
+                                                                Sarthak</small>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+
+                </div>
+        </section>
+        <script src="./script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
+
 </body>
 
 </html>

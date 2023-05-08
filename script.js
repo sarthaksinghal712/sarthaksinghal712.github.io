@@ -28,3 +28,14 @@ $("#knowProj2").click(function(event) {
         scrollTop: targetOffset + "px"
     },500);
 })
+
+$("#knowProj3").click(function(event) {
+    event.preventDefault();
+    $("#content-card3").css("height", $("#card-intro3").height())
+    // $("#frame3").css("width", $("#card-intro2").width() - 30)
+    $("#content-card3").slideDown("slow");
+    var targetOffset = $('#content-card-footer3').offset().top;
+    $("html, body").animate({
+        scrollTop: targetOffset + "px"
+    },500);
+})
